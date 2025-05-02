@@ -43,3 +43,7 @@ export const fileRelations=relations(files, ({one,many})=>({
 //Type Definitions
 export const File=typeof files.$inferSelect
 export const NewFile=typeof files.$inferInsert
+// These infer TypeScript types for:
+// File: selecting from the table.
+// NewFile: inserting into the table.
+
